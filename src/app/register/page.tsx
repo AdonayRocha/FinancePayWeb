@@ -29,6 +29,7 @@ const Label = styled.label`
   display: block;
   font-size: 16px;
   margin-bottom: 6px;
+  font-family: 'Koh Santepheap', sans-serif;
 `;
 
 const Input = styled.input`
@@ -40,6 +41,7 @@ const Input = styled.input`
   outline: none;
   font-size: 15px;
   margin-bottom: 28px;
+  font-family: 'Koh Santepheap', sans-serif;
 `;
 
 const Button = styled.button`

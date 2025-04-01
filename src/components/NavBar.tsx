@@ -27,7 +27,7 @@ const Nav = styled.nav`
   gap: 28px;
 `;
 
-const NavLink = styled(Link)`
+const StyledAnchor = styled.a`
   color: white;
   text-decoration: none;
   font-size: 14px;
@@ -39,15 +39,23 @@ const NavLink = styled(Link)`
   }
 `;
 
-export default function NavBar() {
+const NavBar = () => {
   return (
     <Header>
       <Logo>FINANCEPAY</Logo>
       <Nav>
-        <NavLink href="/wallet">my wallet</NavLink>
-        <NavLink href="/criptos">criptos</NavLink>
-        <NavLink href="/user">user</NavLink>
+        <Link href="/wallet" passHref legacyBehavior>
+          <StyledAnchor>my wallet</StyledAnchor>
+        </Link>
+        <Link href="/criptos" passHref legacyBehavior>
+          <StyledAnchor>criptos</StyledAnchor>
+        </Link>
+        <Link href="/user" passHref legacyBehavior>
+          <StyledAnchor>user</StyledAnchor>
+        </Link>
       </Nav>
     </Header>
   );
-}
+};
+
+export default NavBar;

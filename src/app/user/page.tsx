@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* <- sem calc, pois já controlamos via layout */
+  height: 100%;
 `;
 
 const Container = styled.div`
@@ -28,6 +28,7 @@ const Label = styled.label`
   display: block;
   font-size: 18px;
   margin-bottom: 6px;
+  font-family: 'Koh Santepheap', sans-serif;
 `;
 
 const Input = styled.input`
@@ -39,6 +40,7 @@ const Input = styled.input`
   outline: none;
   font-size: 17px;
   margin-bottom: 28px;
+  font-family: 'Koh Santepheap', sans-serif;
 `;
 
 const LinkRow = styled.div`

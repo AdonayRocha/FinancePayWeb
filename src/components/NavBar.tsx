@@ -1,7 +1,7 @@
 'use client';
 
-import styled from 'styled-components';
 import Link from 'next/link';
+import styled from 'styled-components';
 
 const Header = styled.header`
   width: 100%;
@@ -42,7 +42,9 @@ const StyledAnchor = styled.a`
 const NavBar = () => {
   return (
     <Header>
-      <Logo>FINANCEPAY</Logo>
+      <Link href="/wallet">
+        <Logo>FINANCEPAY</Logo>
+      </Link>
       <Nav>
         <Link href="/wallet" passHref legacyBehavior>
           <StyledAnchor>my wallet</StyledAnchor>

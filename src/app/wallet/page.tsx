@@ -50,7 +50,7 @@ const InfoSection = styled.div`
 `;
 
 const CardRight = styled.div`
-   background: linear-gradient(180deg, #0c2d23 0%, #1e4f43 100%);
+  background: linear-gradient(180deg, #0c2d23 0%, #1e4f43 100%);
   color: white;
   padding: 44px 48px;
   border-radius: 14px;

@@ -1,6 +1,7 @@
 // app/wallet/page.tsx
 'use client';
 
+import styled from 'styled-components';
 import './wallet_style.css';
 import CardDisplay from '../../components/cardDisplay/carddisplay';
 

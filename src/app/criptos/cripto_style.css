@@ -83,3 +83,22 @@ html, body {
         margin-bottom: 40px;
     }
 }
+
+.form-inputs {
+    background: linear-gradient(180deg, #0c2d23 0%, #1e4f43 100%);
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    border-radius: 30px;
+  }
+  
+  .form-inputs input {
+    padding: 10px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+  }
+
+  .form-inputs :hover{
+    opacity: 0.94;
+    transform: scale(1.05);
+  }

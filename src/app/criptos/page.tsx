@@ -15,7 +15,7 @@ export default function CriptosPage() {
     setMensagemErro('');
 
     try {
-      const response = await fetch('http://localhost:8080/saldo/atualizar', {
+      const response = await fetch('http://localhost:8080/saldo/movimentacao', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ export default function CriptosPage() {
     setMensagemErro('');
 
     try {
-      const response = await fetch('http://localhost:8080/saldo/atualizar', {
+      const response = await fetch('http://localhost:8080/saldo/movimentacao', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
